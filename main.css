@@ -1,0 +1,78 @@
+body{
+	
+	font-family: courier-new;
+}
+#header{
+	text-align: center;
+}
+        img{
+     		height: 150px;
+			width: 150px;
+			outline: 1px solid black;
+		}
+		#left{
+			display: inline-block;
+			float: left;
+			width: 600px;
+			height:400px;
+			margin-left: 20px;
+		}
+		#right{
+			display: inline-block;
+			width: 600px;
+			height: 400px;
+		}
+		#he{
+			font-weight: bold;
+			text-decoration: underline;
+		}
+		#blk{
+			height: 400px;
+			width: 100%;
+			outline:1px solid white;
+			background-color: rgba(192,192,19,0.2);
+		}
+		#wht{
+			height: 400px;
+			width: 100%;
+			outline:1px solid white;
+			background-color: rgba(192,192,19,0.5);
+}
+
+input[type="text"]{
+   width: 280px;
+  height: 20px;
+  font-size: 20px;
+  border: 1px solid rgb(18,67,133);
+  padding: 4px;
+  margin-top: 8px;
+  margin-bottom: 6px;
+}
+input[type="submit"]{
+	height:30px;
+	width:70px;
+	border: none;
+	cursor: pointer;
+	margin-right: 10px;
+}
+input[type="submit"]:hover{
+	background-color: white;
+}
+#nav{
+	background-color: rgb(18,67,133);
+	height: 40px;
+  
+}
+#search{
+	float: right;
+}
+#inv{
+	color: rgb(18,67,133);
+}
+#box{
+	background-color: white;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  box-sizing: border-box;
+  padding: 25px 100px;
+}

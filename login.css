@@ -1,0 +1,127 @@
+body{
+	  background: rgba(192,192,19,0.5);
+  font-size: 16px;
+  font-family: courier-new;
+  font-weight: bold;
+}
+h1{
+	color: #16a085;
+	text-decoration: underline;
+	text-align: center;
+}
+#login{
+	background-color: #16a085;
+	color:white;
+	width: 80px;
+	height: 32px;
+	border-radius: 2px;
+	border:none;
+	cursor: pointer;
+	font-weight: bold;
+}
+#login:hover{
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  opacity: 0.8;
+}
+#email, #password{
+	display: block;
+	margin-top: 20px;
+	padding: 6px;
+	font-weight: bold;
+	border: none;
+	border-bottom:2px solid #AAA;
+	font-size: 12px;
+}
+#Login{
+	margin: auto;
+	background-color: white;
+    border-radius: 2px;
+    width: 350px;
+    height: 250px;
+    padding: 25px 100px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+p{
+	color: red;
+	text-align: center;
+}
+#email:focus,#password:focus{
+	border:2px solid black;
+}
+#bold{
+	font-weight: bold;
+	text-transform: capitalize;
+	font-size: 19px;
+}
+#left{
+	width:55%;
+	margin-right: 110px;
+}
+#right{
+	width:35%;
+}
+#left,#right{
+	border-radius: 2px;
+	background-color: white;
+	float: left;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+	line-height: 1.8;
+	padding-right: 12px;
+	padding-left: 12px;
+	box-sizing: border-box;
+}
+#block{
+	margin: 5% 2%;
+}
+h3{
+	color: #16a085;
+	text-decoration: underline;
+}
+
+#cmnt{
+	margin: 0.5% 200px;
+	width: 800px;
+	height: 930px;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
+    padding: 25px 100px;
+}
+       #post{
+	background-color: #16a085;
+	color:white;
+	width: 100px;
+	height: 32px;
+	border-radius: 2px;
+	border:none;
+	cursor: pointer;
+	font-weight: bold;
+}
+        #post:hover{
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  opacity: 0.8;
+}
+#text, #projname{
+	display: block;
+	margin-top: 20px;
+	padding: 6px;
+}
+  #projname{
+	border:none;
+	border-bottom: 2px solid #AAA;
+	font-weight: bold;
+}
+#text{
+	border:2px solid #AAA;
+	font-weight: bold;
+	font-size: 15px;
+}
+#projname:focus{
+	border-bottom: 1px solid #16a085;
+}
+#text:focus{
+	border:2px solid #16a085;
+}
+
